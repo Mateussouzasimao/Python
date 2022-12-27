@@ -72,3 +72,37 @@ Exercício 16. Faça um Programa para uma loja de tintas. O programa deverá ped
               - comprar apenas latas de 18 litros;
               - comprar apenas galões de 3,6 litros;
               - misturar latas e galões, de forma que o desperdício de tinta seja menor. Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias.
+              
+Exercício 17. Faça um programa que peça dois números e verifique qual é o maior entre eles.
+
+Exercício 18. Faça um programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+
+Exercício 19. Faça um programa que se uma letra digitada é “F” ou “M”. Conforme a letra escrever: F – Feminino, M – Masculino, Sexo inválido.
+
+Exercício 20. Faça um programa para verificar se uma letra digitada é vogal ou consoante.
+
+Exercício 21. Faça um programa para leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
+
+              - A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
+              - A mensagem "Reprovado", se a média for menor do que sete;
+              - A mensagem "Aprovado com Distinção", se a média for igual a dez.
+              
+Exercício 22. Faça um programa que leia três números e mostre o maior deles.
+
+Exercício 23. Faça um programa que leia três números e mostre o maior e o menor deles.
+
+Exercício 24. Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
+
+Exercício 25. Faça um Programa que leia três números e mostre-os em ordem decrescente.
+
+Exercício 26. As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e você foi contratado para desenvolver o programa que calculará os                 reajustes. Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
+
+              - salários até R$250,00 (incluindo) : aumento de 13%
+              - salários entre R$250,00 e R$600,00 : aumento de 17%
+              - salários entre R$600,00e  R$1400,00 : aumento de 9%
+              - salários de R$1400,00 em diante : aumento de 7% Após o aumento ser realizado, informe na tela:
+              
+               O salário antes do reajuste:
+               O percentual de aumento aplicado:
+               O valor do aumento:
+               O novo salário, após o aumento:
