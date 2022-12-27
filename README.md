@@ -106,3 +106,70 @@ Exercício 26. As Organizações Tabajara resolveram dar um aumento de salário 
                O percentual de aumento aplicado:
                O valor do aumento:
                O novo salário, após o aumento:
+               
+Exercício 27. Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor                   inválido.
+
+Exercício 28. Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de                     conceitos obedece à tabela abaixo:
+
+                Média de Aproveitamento Conceito
+                -Entre 9.0 e 10.0 A
+                -Entre 7.5 e 9.0 B
+                -Entre 6.0 e 7.5 C
+                -Entre 4.0 e 6.0 D
+                -Entre 4.0 e zero E
+
+              O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e a mensagem “APROVADO, parabéns!” se o conceito for A, B ou C ou                         “REPROVADO, estude mais.” se o conceito for D ou E.
+              
+Exercício 29. Faça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores podem ser um triângulo. Indique, caso os lados formem um                 triângulo, se o mesmo é: equilátero, isósceles ou escaleno.
+
+              Dicas: Três lados formam um triângulo quando a soma de quaisquer dois lados for maior que o terceiro;
+
+                -Triângulo Equilátero: três lados iguais;
+                -Triângulo Isósceles: quaisquer dois lados iguais;
+                -Triângulo Escaleno: três lados diferentes.
+                
+Exercício 30. Faça um programa que calcule as raízes de uma equação do segundo grau, na forma ax2 + bx + c. O programa deverá pedir os valores de a, b e c e fazer as                 consistências, informando ao usuário nas seguintes situações:
+
+                - Se o usuário informar o valor de A igual a zero, a equação não é do segundo grau e o programa não deve fazer pedir os demais valores, sendo                             encerrado;
+                - Se o delta calculado for negativo, a equação não possui raizes reais. Informe ao usuário e encerre o programa;
+                - Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
+                - Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário.
+                
+Exercício 31. Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
+
+Exercício 32. Faça um Programa que peça uma data no formato dd-mm-aaaa e determine se a mesma é uma data válida.
+
+Exercício 33. Faça um Programa que leia um número inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades do mesmo. Observando os termos no                     plural a colocação do "e", da vírgula entre outros. Exemplo:
+
+                - 326 = 3 centenas, 2 dezenas e 6 unidades
+                - 12 = 1 dezena e 2 unidades Testar com: 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16
+                
+Exercício 34. O Hipermercado Ferreirinha está com uma promoção de carnes que é imperdível. Confira:
+
+                              Até 8Kg           Acima de 8Kg
+                  File Mignon R$7,20Kg          R$6,60Kg
+
+                  Linguiça    R$8,90KG          R$8,80Kg
+
+                  Frango      R$3,90Kg          R$3,70Kg
+
+              Para atender a todos os clientes, cada cliente poderá levar apenas um dos tipos de carne da promoção, porém não há limites para a quantidade de carne por               cliente. Se compra for feita no cartão Ferreirinha o cliente receberá ainda um desconto de 3% sobre o total da compra. Escreva um programa que peça o                   tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, contendo as informações da compra: tipo e quantidade de carne, preço total,                 tipo de pagamento, valor do desconto e valor a pagar. 
+              
+Exercício 35. O Arthur está vendendo frutas com a seguinte tabela de preços:
+
+                              Até 5Kg           Acima de 5Kg
+                  Morango     R$3,50Kg          R$3,20Kg
+
+                  Maça        R$2,80Kg          R$2,50Kg
+
+              Se o cliente comprar mais de 7 Kg em frutas ou o valor total da compra ultrapassar R$ 27,00, receberá ainda um desconto de 7% sobre este total. Escreva                 um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adquiridas e escreva o valor a ser pago pelo cliente.
+              
+Exercício 36. Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
+
+                - "Telefonou para a vítima?"
+                - "Esteve no local do crime?"
+                - "Mora perto da vítima?"
+                - "Devia para a vítima?"
+                - "Já trabalhou com a vítima?"
+
+              O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões ela deve ser               classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".              
