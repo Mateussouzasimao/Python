@@ -1,3 +1,4 @@
+abacate = []
 while True:
     try:
         abacate.append(int(input('Informe um número inteiro: ')))
