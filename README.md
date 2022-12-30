@@ -169,4 +169,106 @@ Exercício 36. Faça um programa que faça 5 perguntas para uma pessoa sobre um 
                 - "Devia para a vítima?"
                 - "Já trabalhou com a vítima?"
 
-O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões ela deve ser               classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".              
+O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões ela deve ser               classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".
+
+Exercício 37. Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido
+
+Exercício 38. Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
+
+Exercício 39. Faça um programa que leia e valide as seguintes informações:
+                - Nome: maior que 3 caracteres
+                - Idade: entre 0 e 150;
+                - Salário: maior que zero;
+                - Sexo: 'f' ou 'm';
+                - Estado Civil: 's', 'c', 'v', 'd’.
+                
+Exercíco 40. Supondo que a população de um país X seja da ordem de 100000 habitantes com uma taxa anual de crescimento de 2,7% e que a população de W seja 250000 habitantes com uma taxa de crescimento de 1.3%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país X ultrapasse ou iguale a população do país W, mantidas as taxas de crescimento.
+
+Exercício 41. Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais. Valide a entrada e permita repetir a operação.
+
+Exercício 42. Faça um programa que imprima na tela os números de 1 a 15, um abaixo do outro. Depois modifique o programa para que ele mostre os números um ao lado do outro.
+
+Exercício 43. Faça um programa que leia 4 números e informe o maior número.
+
+Exercício 44. Faça um programa que leia 8 números e informe a soma e a média dos números.
+
+Exercício 45. Faça um programa que imprima na tela apenas os números ímpares entre 1 e 25.
+
+Exercício 46. Faça um programa que receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido por eles.
+
+Exercício 47. Altere o programa anterior para mostrar no final a soma dos números.
+
+Exercício 48. Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada. A saída deve ser conforme o exemplo abaixo:
+Tabuada de 5:
+                - 5 X 1 = 5
+                - 5 X 2 = 10 
+                ...
+                - 5 X 10 = 50
+                
+Exercício 49. Sendo H= 1 + 1/2 + 1/3 + 1/4 + ... + 1/N. Faça um programa que calcule o valor de H com N termos.
+
+Exercício 50. Em uma competição de ginástica, cada atleta recebe votos de nove jurados. A melhor e a pior nota são eliminadas. A sua nota fica sendo a média dos votos restantes. Você deve fazer um programa que receba o nome do ginasta e as notas dos nove jurados alcançadas pelo atleta em sua apresentação e depois informe a sua média, conforme a descrição acima informada (retirar o melhor e o pior salto e depois calcular a média com as notas restantes). As notas não são informados ordenadas. Um exemplo de saída do programa deve ser conforme o exemplo abaixo:
+
+                - Atleta: Aparecido Parente
+                - Nota: 9.9 . . .
+                - Nota: 9.0
+                - Nota: 8.5
+                - Nota: 9.7
+                - Resultado final:
+                - Atleta: Bianca
+                - Melhor nota: 9.8
+                - Pior nota: 7.3
+                - Média: 9,07
+                
+Exercício 51. Em uma competição de salto em distância cada atleta tem direito a cinco saltos. No final da série de saltos de cada atleta, o melhor e o pior resultados são eliminados. O seu resultado fica sendo a média dos três valores restantes. Você deve fazer um programa que receba o nome e as cinco distâncias alcançadas pelo atleta em seus saltos e depois informe a média dos saltos conforme a descrição acima informada (retirar o melhor e o pior salto e depois calcular a média). Faça uso de uma lista para armazenar os saltos. Os saltos são informados na ordem da execução, portanto não são ordenados. O programa deve ser encerrado quando não for informado o nome do atleta. A saída do programa deve ser conforme o exemplo abaixo:
+
+                - Atleta: Lucas Lima
+                - Primeiro Salto: 6.5m
+                - Segundo Salto: 6.1m
+                - Terceiro Salto: 6.2m
+                - Quarto Salto: 5.4m
+                - Quinto Salto: 5.3m
+                - Melhor salto: 6.5m
+                - Pior salto: 5.3m
+                - Média dos demais saltos: 5.9m
+                - Resultado final:
+                - Lucas Lima: 5.9m
+                
+Exercício 52. Desenvolver um programa para verificar a nota do aluno em uma prova com 12 questões, o programa deve perguntar ao aluno a resposta de cada questão e ao final comparar com o gabarito da prova e assim calcular o total de acertos e a nota (atribuir 1 ponto por resposta certa). Após cada aluno utilizar o sistema deve ser feita uma pergunta se outro aluno vai utilizar o sistema. Após todos os alunos terem respondido informar:
+Maior e Menor Acerto;
+
+                 - Total de Alunos que utilizaram o sistema:
+                 - A Média das Notas da Turma:
+                 - Gabarito da Prova:
+
+                 - 01 - A
+                 - 02 - B
+                 - 03 - C
+                 - 04 - D
+                 - 05 - E
+                 - 06 - E
+                 - 07 - D
+                 - 08 - C
+                 - 09 - B
+                 - 10 – A
+                 - 11 – C
+                 - 12 - D
+
+Após concluir isto você poderia incrementar o programa permitindo que o professor digite o gabarito da prova antes dos alunos usarem o programa.
+
+Exercício 53. O cardápio de uma lanchonete é o seguinte:
+
+                 - Especificação           Código        Preço
+                 
+                   Cachorro Quente         200           1,80
+                   Misto Simples           201           2,30
+                   Misto com ovo           202           2,60
+                   X- Salada               203           1,90
+                   X-Frango                204           1,80
+                   Refrigerante            205           1,25
+
+Faça um programa que leia o código dos itens pedidos e as quantidades desejadas. Calcule e mostre o valor a ser pago por item (preço * quantidade) e o total geral do pedido. Considere que o cliente deve informar quando o pedido deve ser encerrado.
+
+Exercício 54. Um funcionário de uma empresa recebe aumento salarial anualmente: Sabe-se que: Esse funcionário foi contratado em 2005, com salário inicial de 1.000,00. Em 2006 recebeu aumento de 1,5% sobre seu salário inicial; A partir de 2007 (inclusive), os aumentos salariais sempre correspondem ao dobro do percentual do ano anterior. Faça um programa que determine o salário atual desse funcionário. Após concluir isto, altere o programa permitindo que o usuário digite o salário inicial do funcionário.
+
+Exercício 55. Faça um programa que leia seis conjuntos de dois valores, o primeiro representando o número do funcionário e o segundo representando a sua altura em centímetros. Encontre o funcionário mais alto e o mais baixo. Mostre o número do funcionário mais alto e o número do aluno mais baixo, junto com suas alturas.
